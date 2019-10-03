@@ -32,21 +32,6 @@ function buildHtmlTable(selector) {
 
 }
 
-
-
-// var link = document.createElement("a");
-// link.setAttribute("href", "http://www.microsoft.com")
-// link.className = "someCSSclass";
-// // For IE only, you can simply set the innerText of the node.
-// // The below code, however, should work on all browsers.
-// var linkText = document.createTextNode("Click me");
-// link.appendChild(linkText);
-
-// // Add the link to the previously created TableCell.
-// newCell.appendChild(link);
-
-
-
 function addAllColumnHeaders(jsonData, selector) {
     var columnSet = [];                                             // initialize columnSet to be an empty array
     var headerTr$ = $('<tr></tr>');                                 // initialize headerTr$ to be an empty <tr> jquery element
